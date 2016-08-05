@@ -1,0 +1,38 @@
+﻿.bindingDescriptorsInputParent fieldset
+{
+	height: auto;
+	width: 15em;
+	border: none;
+}
+
+.bindingDescriptorsInputParent fieldset ol
+{
+	list-style: none;
+}
+
+.bindingDescriptorsInputParent fieldset li
+{
+	float: left;
+	clear: left;
+	width: 100%;
+	padding-bottom: 0.5em;
+}
+
+.bindingDescriptorsInputParent label.bindingDescriptorsInputText
+{
+    float:  left;
+	width: 4em;
+	margin-right: 1em;
+	text-align: right;
+}
+
+.bindingDescriptorsInputParent fieldset input[type='text']
+{
+	width: 75px;
+}
+
+.bindingDescriptorsInputPosition
+{
+	float: left;
+}
+

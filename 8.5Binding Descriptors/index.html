@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>_8.5Binding_Descriptors</title>
+    <link href="lib/winjs-4.0.1/css/ui-light.css" rel="stylesheet" />
+    <script src="lib/winjs-4.0.1/js/base.js"></script>
+    <script src="lib/winjs-4.0.1/js/ui.js"></script>
+    <link href="css/default.css" rel="stylesheet" />
+    <script src="js/main.js"></script>
+</head>
+
+<body class="win-type-body">
+
+    <div class="bindingDescriptorsInputParent">
+        <!--fieldset将表内相关元素分组-->
+        <fieldset class="bindingDescriptorsInputPosition">
+            <legend>Position</legend>
+            <ol>
+                <li><label class="bindingDescriptorsInputText">X:</label><input type="text" class="win-textbox bindingDescriptorsInputX" /></li>
+                <li><label class="bindingDescriptorsInputText">Y:</label><input type="text" class="win-textbox bindingDescriptorsInputY" /></li>
+            </ol>
+        </fieldset>
+        <fieldset class="bindingDescriptorsInputColor">
+            <legend>Color</legend>
+            <ol>
+                <li><label class="bindingDescriptorsInputText">Red:</label><input type="text" class="win-textbox bindingDescriptorsInputRed" /></li>
+                <li><label class="bindingDescriptorsInputText">Green:</label><input type="text" class="win-textbox bindingDescriptorsInputGreen" /></li>
+                <li><label class="bindingDescriptorsInputText">Blue:</label><input type="text" class="win-textbox bindingDescriptorsInputBlue" /></li>
+            </ol>
+        </fieldset>
+    </div>
+
+    <canvas class="bindingDescriptorsOutputCanvas" width="500" height="150" />
+
+</body>
+</html>
